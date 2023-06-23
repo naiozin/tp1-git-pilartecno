@@ -7,6 +7,8 @@
 
 function extractValues(data) {
   // Tu código aquí
+  let array = Object.values(data)
+  return array;
 }
 
 /*  
