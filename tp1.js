@@ -21,6 +21,14 @@ function extractValues(data) {
 
 function arrayToLengthCounters(array) {
   // Tu código aquí
+  const obj = {};
+  
+  for (let i = 0; i < array.length; i++) {
+    let keys = array[i];  
+    let length = keys.length;
+    obj[keys] = length;
+  }
+  return obj;
 }
 
 /*  
